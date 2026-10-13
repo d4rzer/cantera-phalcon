@@ -1,0 +1,53 @@
+services:
+  db:
+    image: mysql:8.4
+    environment:
+      MYSQL_DATABASE: ${DB_NAME:-cantera}
+      MYSQL_USER: ${DB_USER:-cantera}
+      MYSQL_PASSWORD: ${DB_PASSWORD:-CanteraDB2026_local}
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:-CanteraRoot2026_local}
+    volumes:
+      - database:/var/lib/mysql
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h 127.0.0.1 --silent"]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+    restart: unless-stopped
+  app:
+    build: .
+    environment:
+      APP_ENV: ${APP_ENV:-development}
+      APP_TIMEZONE: ${APP_TIMEZONE:-America/Guatemala}
+      DB_HOST: db
+      DB_PORT: 3306
+      DB_NAME: ${DB_NAME:-cantera}
+      DB_USER: ${DB_USER:-cantera}
+      DB_PASSWORD: ${DB_PASSWORD:-CanteraDB2026_local}
+      AGE_MIN: ${AGE_MIN:-5}
+      AGE_MAX: ${AGE_MAX:-14}
+      AGE_REFERENCE_DATE: ${AGE_REFERENCE_DATE:-2026-10-03}
+      SEED_ADMIN_PASSWORD: ${SEED_ADMIN_PASSWORD:-Cantera2026!}
+      SEED_REFEREE_PASSWORD: ${SEED_REFEREE_PASSWORD:-Arbitro2026!}
+    volumes:
+      - photographs:/var/www/html/public/uploads
+      - runtime:/var/www/html/var
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: unless-stopped
+  web:
+    image: nginx:1.28-alpine
+    ports:
+      - "${APP_PORT:-8080}:80"
+    volumes:
+      - ./public:/var/www/html/public:ro
+      - ./docker/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - photographs:/var/www/html/public/uploads:ro
+    depends_on:
+      - app
+    restart: unless-stopped
+volumes:
+  database:
+  photographs:
+  runtime:

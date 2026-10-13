@@ -1,0 +1,7 @@
+.env
+.git
+vendor
+tests/node_modules
+var/*
+public/uploads/players/*
+docs/*.pdf

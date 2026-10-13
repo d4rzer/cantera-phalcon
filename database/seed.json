@@ -1,0 +1,521 @@
+{
+  "teams": [
+    {
+      "id": 1,
+      "name": "Leones de Petapa",
+      "active": 1
+    },
+    {
+      "id": 2,
+      "name": "Halcones Azules",
+      "active": 1
+    },
+    {
+      "id": 3,
+      "name": "Guerreros del Sur",
+      "active": 1
+    },
+    {
+      "id": 4,
+      "name": "Estrellas de Villa Nueva",
+      "active": 1
+    }
+  ],
+  "players": [
+    {
+      "id": 1,
+      "first_name": "Mateo",
+      "last_name": "López",
+      "birth_date": "2013-01-02",
+      "photo_path": "images/player-1.svg",
+      "team_id": 1,
+      "shirt_number": 7,
+      "position": "Delantero"
+    },
+    {
+      "id": 2,
+      "first_name": "Santiago",
+      "last_name": "Rodríguez",
+      "birth_date": "2014-02-03",
+      "photo_path": "images/player-2.svg",
+      "team_id": 1,
+      "shirt_number": 8,
+      "position": "Mediocampista"
+    },
+    {
+      "id": 3,
+      "first_name": "Emiliano",
+      "last_name": "García",
+      "birth_date": "2015-03-04",
+      "photo_path": "images/player-3.svg",
+      "team_id": 1,
+      "shirt_number": 9,
+      "position": "Defensa"
+    },
+    {
+      "id": 4,
+      "first_name": "Daniel",
+      "last_name": "Pérez",
+      "birth_date": "2016-04-05",
+      "photo_path": "images/player-4.svg",
+      "team_id": 1,
+      "shirt_number": 10,
+      "position": "Portero"
+    },
+    {
+      "id": 5,
+      "first_name": "Diego",
+      "last_name": "Hernández",
+      "birth_date": "2013-05-06",
+      "photo_path": "images/player-5.svg",
+      "team_id": 1,
+      "shirt_number": 11,
+      "position": "Delantero"
+    },
+    {
+      "id": 6,
+      "first_name": "Sebastián",
+      "last_name": "Morales",
+      "birth_date": "2014-06-07",
+      "photo_path": "images/player-6.svg",
+      "team_id": 2,
+      "shirt_number": 7,
+      "position": "Delantero"
+    },
+    {
+      "id": 7,
+      "first_name": "Leonardo",
+      "last_name": "Castillo",
+      "birth_date": "2015-07-08",
+      "photo_path": "images/player-7.svg",
+      "team_id": 2,
+      "shirt_number": 8,
+      "position": "Mediocampista"
+    },
+    {
+      "id": 8,
+      "first_name": "Nicolás",
+      "last_name": "Ramírez",
+      "birth_date": "2016-08-09",
+      "photo_path": "images/player-8.svg",
+      "team_id": 2,
+      "shirt_number": 9,
+      "position": "Defensa"
+    },
+    {
+      "id": 9,
+      "first_name": "Gabriel",
+      "last_name": "Méndez",
+      "birth_date": "2013-09-10",
+      "photo_path": "images/player-9.svg",
+      "team_id": 2,
+      "shirt_number": 10,
+      "position": "Portero"
+    },
+    {
+      "id": 10,
+      "first_name": "Samuel",
+      "last_name": "Ortiz",
+      "birth_date": "2014-10-11",
+      "photo_path": "images/player-10.svg",
+      "team_id": 2,
+      "shirt_number": 11,
+      "position": "Delantero"
+    },
+    {
+      "id": 11,
+      "first_name": "Andrés",
+      "last_name": "Cruz",
+      "birth_date": "2015-11-12",
+      "photo_path": "images/player-11.svg",
+      "team_id": 3,
+      "shirt_number": 7,
+      "position": "Delantero"
+    },
+    {
+      "id": 12,
+      "first_name": "Javier",
+      "last_name": "Reyes",
+      "birth_date": "2016-12-13",
+      "photo_path": "images/player-12.svg",
+      "team_id": 3,
+      "shirt_number": 8,
+      "position": "Mediocampista"
+    },
+    {
+      "id": 13,
+      "first_name": "Lucas",
+      "last_name": "Molina",
+      "birth_date": "2013-01-14",
+      "photo_path": "images/player-13.svg",
+      "team_id": 3,
+      "shirt_number": 9,
+      "position": "Defensa"
+    },
+    {
+      "id": 14,
+      "first_name": "David",
+      "last_name": "Vásquez",
+      "birth_date": "2014-02-15",
+      "photo_path": "images/player-14.svg",
+      "team_id": 3,
+      "shirt_number": 10,
+      "position": "Portero"
+    },
+    {
+      "id": 15,
+      "first_name": "Alejandro",
+      "last_name": "Gómez",
+      "birth_date": "2015-03-16",
+      "photo_path": "images/player-15.svg",
+      "team_id": 3,
+      "shirt_number": 11,
+      "position": "Delantero"
+    },
+    {
+      "id": 16,
+      "first_name": "José",
+      "last_name": "Aguilar",
+      "birth_date": "2016-04-17",
+      "photo_path": "images/player-16.svg",
+      "team_id": 4,
+      "shirt_number": 7,
+      "position": "Delantero"
+    },
+    {
+      "id": 17,
+      "first_name": "Pablo",
+      "last_name": "Santos",
+      "birth_date": "2013-05-18",
+      "photo_path": "images/player-17.svg",
+      "team_id": 4,
+      "shirt_number": 8,
+      "position": "Mediocampista"
+    },
+    {
+      "id": 18,
+      "first_name": "Ángel",
+      "last_name": "Fuentes",
+      "birth_date": "2014-06-19",
+      "photo_path": "images/player-18.svg",
+      "team_id": 4,
+      "shirt_number": 9,
+      "position": "Defensa"
+    },
+    {
+      "id": 19,
+      "first_name": "Luis",
+      "last_name": "Alvarado",
+      "birth_date": "2015-07-20",
+      "photo_path": "images/player-19.svg",
+      "team_id": 4,
+      "shirt_number": 10,
+      "position": "Portero"
+    },
+    {
+      "id": 20,
+      "first_name": "Carlos",
+      "last_name": "Martínez",
+      "birth_date": "2016-08-21",
+      "photo_path": "images/player-20.svg",
+      "team_id": 4,
+      "shirt_number": 11,
+      "position": "Delantero"
+    }
+  ],
+  "matchdays": [
+    {
+      "id": 1,
+      "number": 1,
+      "game_date": "2026-10-03"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "game_date": "2026-10-10"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "game_date": "2026-10-17"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "game_date": "2026-10-24"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "game_date": "2026-10-31"
+    }
+  ],
+  "goals": [
+    {
+      "id": 1,
+      "player_id": 1,
+      "matchday_id": 1,
+      "goals": 6
+    },
+    {
+      "id": 2,
+      "player_id": 1,
+      "matchday_id": 2,
+      "goals": 4
+    },
+    {
+      "id": 3,
+      "player_id": 2,
+      "matchday_id": 1,
+      "goals": 6
+    },
+    {
+      "id": 4,
+      "player_id": 2,
+      "matchday_id": 2,
+      "goals": 3
+    },
+    {
+      "id": 5,
+      "player_id": 3,
+      "matchday_id": 1,
+      "goals": 6
+    },
+    {
+      "id": 6,
+      "player_id": 3,
+      "matchday_id": 2,
+      "goals": 3
+    },
+    {
+      "id": 7,
+      "player_id": 4,
+      "matchday_id": 1,
+      "goals": 5
+    },
+    {
+      "id": 8,
+      "player_id": 4,
+      "matchday_id": 2,
+      "goals": 3
+    },
+    {
+      "id": 9,
+      "player_id": 5,
+      "matchday_id": 1,
+      "goals": 5
+    },
+    {
+      "id": 10,
+      "player_id": 5,
+      "matchday_id": 2,
+      "goals": 3
+    },
+    {
+      "id": 11,
+      "player_id": 6,
+      "matchday_id": 1,
+      "goals": 5
+    },
+    {
+      "id": 12,
+      "player_id": 6,
+      "matchday_id": 2,
+      "goals": 3
+    },
+    {
+      "id": 13,
+      "player_id": 7,
+      "matchday_id": 1,
+      "goals": 4
+    },
+    {
+      "id": 14,
+      "player_id": 7,
+      "matchday_id": 2,
+      "goals": 2
+    },
+    {
+      "id": 15,
+      "player_id": 8,
+      "matchday_id": 1,
+      "goals": 4
+    },
+    {
+      "id": 16,
+      "player_id": 8,
+      "matchday_id": 2,
+      "goals": 2
+    },
+    {
+      "id": 17,
+      "player_id": 9,
+      "matchday_id": 1,
+      "goals": 4
+    },
+    {
+      "id": 18,
+      "player_id": 9,
+      "matchday_id": 2,
+      "goals": 2
+    },
+    {
+      "id": 19,
+      "player_id": 10,
+      "matchday_id": 1,
+      "goals": 3
+    },
+    {
+      "id": 20,
+      "player_id": 10,
+      "matchday_id": 2,
+      "goals": 2
+    },
+    {
+      "id": 21,
+      "player_id": 11,
+      "matchday_id": 1,
+      "goals": 3
+    },
+    {
+      "id": 22,
+      "player_id": 11,
+      "matchday_id": 2,
+      "goals": 2
+    },
+    {
+      "id": 23,
+      "player_id": 12,
+      "matchday_id": 1,
+      "goals": 3
+    },
+    {
+      "id": 24,
+      "player_id": 12,
+      "matchday_id": 2,
+      "goals": 1
+    },
+    {
+      "id": 25,
+      "player_id": 13,
+      "matchday_id": 1,
+      "goals": 2
+    },
+    {
+      "id": 26,
+      "player_id": 13,
+      "matchday_id": 2,
+      "goals": 1
+    },
+    {
+      "id": 27,
+      "player_id": 14,
+      "matchday_id": 1,
+      "goals": 2
+    },
+    {
+      "id": 28,
+      "player_id": 14,
+      "matchday_id": 2,
+      "goals": 1
+    },
+    {
+      "id": 29,
+      "player_id": 15,
+      "matchday_id": 1,
+      "goals": 2
+    },
+    {
+      "id": 30,
+      "player_id": 15,
+      "matchday_id": 2,
+      "goals": 1
+    },
+    {
+      "id": 31,
+      "player_id": 16,
+      "matchday_id": 1,
+      "goals": 1
+    },
+    {
+      "id": 32,
+      "player_id": 16,
+      "matchday_id": 2,
+      "goals": 1
+    },
+    {
+      "id": 33,
+      "player_id": 18,
+      "matchday_id": 1,
+      "goals": 1
+    },
+    {
+      "id": 34,
+      "player_id": 18,
+      "matchday_id": 2,
+      "goals": 1
+    },
+    {
+      "id": 35,
+      "player_id": 20,
+      "matchday_id": 1,
+      "goals": 1
+    },
+    {
+      "id": 36,
+      "player_id": 20,
+      "matchday_id": 2,
+      "goals": 1
+    }
+  ],
+  "incidents": [
+    {
+      "id": 1,
+      "player_id": 2,
+      "description": "Conducta antideportiva; suspensión para la próxima jornada.",
+      "card_type": "red",
+      "incident_date": "2026-10-10",
+      "suspension_date": "2026-10-17"
+    },
+    {
+      "id": 2,
+      "player_id": 7,
+      "description": "Segunda amonestación durante el encuentro.",
+      "card_type": "red",
+      "incident_date": "2026-10-10",
+      "suspension_date": "2026-10-17"
+    },
+    {
+      "id": 3,
+      "player_id": 12,
+      "description": "Falta grave; se registra suspensión por una jornada.",
+      "card_type": "red",
+      "incident_date": "2026-10-10",
+      "suspension_date": "2026-10-17"
+    },
+    {
+      "id": 4,
+      "player_id": 4,
+      "description": "Entrada imprudente.",
+      "card_type": "yellow",
+      "incident_date": "2026-10-03",
+      "suspension_date": null
+    },
+    {
+      "id": 5,
+      "player_id": 9,
+      "description": "Retraso en la reanudación del juego.",
+      "card_type": "yellow",
+      "incident_date": "2026-10-10",
+      "suspension_date": null
+    },
+    {
+      "id": 6,
+      "player_id": 15,
+      "description": "Protesta de una decisión arbitral.",
+      "card_type": "yellow",
+      "incident_date": "2026-10-10",
+      "suspension_date": null
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+.env
+/vendor/
+/tests/node_modules/
+/var/cache/*
+/var/session/*
+/var/log/*
+/var/*.sqlite
+/public/uploads/players/*
+!.gitkeep
+
+.DS_Store

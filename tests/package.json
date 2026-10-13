@@ -1,0 +1,1 @@
+{"private":true,"type":"module","scripts":{"dom":"node dom-test.mjs"},"devDependencies":{"jsdom":"30.1.2"}}
